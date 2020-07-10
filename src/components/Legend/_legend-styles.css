@@ -1,0 +1,66 @@
+.legend {
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  bottom: 35px;
+  position: absolute;
+  left: 10px;
+  z-index: 1;
+}
+
+.legend-label {
+  font-weight: 600;
+}
+
+.legend-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px;
+}
+
+.legend-section:not(:last-child) {
+  border-bottom: 1px solid #efefef;
+}
+
+.legend-grid {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  grid-template-rows: 24px;
+  grid-column-gap: 5px;
+  grid-row-gap: 0px;
+  grid-auto-flow: row;
+  padding: 0 6px 0 0;
+}
+
+.legend-grid > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.legend-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.source-notes {
+  color: #585858;
+  font-size: 8pt;
+  line-height: 10pt;
+  max-width: 200px;
+}
+
+.source-notes a,
+a:visited,
+a:hover,
+a:active {
+  color: #585858;
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
