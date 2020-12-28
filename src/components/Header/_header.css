@@ -6,10 +6,7 @@ header {
   top: 0;
   left: 0;
   height: 50px;
-  width: 100%;
-  background-color: #242d2f;
-  color: #fff;
-  text-shadow: 1px 1px #000;
+  color: #242d2f;
+  text-shadow: 1px 1px #fff;
   padding: 0 8px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }

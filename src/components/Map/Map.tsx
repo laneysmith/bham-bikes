@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import mapboxgl, { Map, Popup as PopupType } from 'mapbox-gl';
+import mapboxgl, { Map } from 'mapbox-gl';
 
 import './_map.css';
 
@@ -8,7 +8,7 @@ mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
 const BIKE_FACILITIES_SOURCE = 'bike-facilities';
 const BIKE_FACILITIES_LAYER = 'bike-facilities-layer';
 
-const App: React.SFC = () => {
+const App: React.FC = () => {
   const mapRef = useRef<Map | null>();
   const mapContainerRef = useRef<HTMLDivElement>(document.createElement('div'));
 
