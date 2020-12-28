@@ -1,6 +1,6 @@
-# Denver Bikes [![Netlify Status](https://api.netlify.com/api/v1/badges/3714c0a4-54cd-4324-ae9d-b28cb7d3ac15/deploy-status)](https://app.netlify.com/sites/denver-bikes/deploys)
+# Bellingham Bikes [![Netlify Status](https://api.netlify.com/api/v1/badges/e0f7860a-9748-4a99-866b-1184677c6ea7/deploy-status)](https://app.netlify.com/sites/bellingham-bikes/deploys)
 
-This is an interactive map of bike racks and trails and sidewalks in Denver.
+This is an interactive map of bike racks and trails and sidewalks in Bellingham.
 
 ## Quick start
 
@@ -11,7 +11,5 @@ This is an interactive map of bike racks and trails and sidewalks in Denver.
 
 ## Resources
 
-- [Denver Existing Bicycle Facilities](https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-existing-denver-bicycle-facilities)
-- [Denver Bike Racks Data](https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-bike-racks)
 - [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/)
 - [Create React App](https://github.com/facebook/create-react-app)
